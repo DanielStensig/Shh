@@ -5,6 +5,8 @@
   padding: 10px;
   margin-top: 10px;
   border-radius: 25px; 
+  background-color: rgb(158, 109, 165); 
+  color: white;
 }
 .center-work {
   margin: auto;
@@ -27,6 +29,17 @@
   border: white solid 4px;
   margin: -14px; 
   padding: 10px;
+}
+
+.copyright-claim {
+  margin: auto;
+  width: 20%;
+  border: solid whitesmoke 4px;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 25px; 
+  background-color: rgb(158, 109, 165); 
+  color: white;
 }
 
 /* Responsive styles */
