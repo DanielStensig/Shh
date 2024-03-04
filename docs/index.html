@@ -15,11 +15,11 @@
             <p><em>Lavet af Daniel Stensig</em></p>
         </div>
         <div class="center-work" style="background-color: rgb(230, 183, 236);">
-            <h4><strong>Input Grundlæggende Oplysninger</strong></h2>
+            <h4><strong>Input Grundlæggende Oplysninger</strong></h4>
     
             <form id="myForm">
                 <br>
-                <div>
+                <div class="container">
                     <h6>Fornavn og Efternavn</h6>
                     <label for="fname">First name:</label><br>
                     <input type="text" id="fname" name="fname" placeholder="First name..."><br>
@@ -29,37 +29,44 @@
 
                 <br>
 
+
                 <div class="new-category">
-                    <h6>Vælg Gruppe</h4>
-                    <div style="margin-top: 10px;">
-                        <select name="selectedGroup">
-                            <option selected disabled>Select Group</option>
-                            <option value="G1">Gruppe 1</option>
-                            <option value="G2">Gruppe 2</option>
-                            <option value="G3">Gruppe 3</option>
-                        </select>
+                    <div class="padding">
+                        <h6>Vælg Gruppe</h4>
+                            <div style="margin-top: 10px;">
+                                <select name="selectedGroup">
+                                    <option selected disabled>Select Group</option>
+                                    <option value="G1">Gruppe 1</option>
+                                    <option value="G2">Gruppe 2</option>
+                                    <option value="G3">Gruppe 3</option>
+                                </select>
+                            </div>
                     </div>
                 </div>
                 
                 <br>
 
                 <div class="new-category">
-                    <h6>Valg</h4>
-                        <input type="checkbox" id="Valg1" name="q1" value="Ja">
-                        <label for="q1">Valg 1</label><br>
-                        
-                        <input type="checkbox" id="Valg2" name="q2" value="Ja">
-                        <label for="q2">Valg 2</label><br>
-                        
-                        <input type="checkbox" id="Valg3" name="q3" value="Ja">
-                        <label for="q3">Valg 3</label>
-                        <br>
+                    <div class="padding">
+                        <h6>Valg</h4>
+                            <input type="checkbox" id="Valg1" name="q1" value="Ja">
+                            <label for="q1">Valg 1</label><br>
+                            
+                            <input type="checkbox" id="Valg2" name="q2" value="Ja">
+                            <label for="q2">Valg 2</label><br>
+                            
+                            <input type="checkbox" id="Valg3" name="q3" value="Ja">
+                            <label for="q3">Valg 3</label>
+                            <br>
+                    </div>
                 </div>
-
                 <br>
                 <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button style="margin-left: 35px;" type="button" class="btn btn-secondary" onclick="clearForm()">Cancel</button>
+                <div class="padding">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" onclick="clearForm()">Cancel</button>
+                </div>
+                
             </form>  
             <!--
             <br>
@@ -68,11 +75,6 @@
             </div>           
             -->    
         </div>    
-        <div class="center-header" style="margin-top: -20px;">
-            <br>
-            <br>
-            <br>
-        </div>
     </div>
     
     <script>

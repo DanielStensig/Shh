@@ -42,6 +42,25 @@
   color: white;
 }
 
+.padding {
+  padding-left: 13px;
+  padding-bottom: 3px;
+}
+
+.container {
+  max-width: 100%;
+
+}
+input[type="text"] {
+  width: 100%;
+  max-width: 100%; /* Ensure padding and border are included in width */
+}
+
+h4 {
+  font-size: 24px; /* Base font size */
+  padding-left: 11px;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     /* Adjust width for smaller screens */
@@ -59,5 +78,9 @@
     /* Adjust padding for smaller screens */
     .new-category {
         padding: 5px;
+    }
+
+    h4 {
+      font-size: 80%;
     }
 }
